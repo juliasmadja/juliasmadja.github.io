@@ -1,0 +1,19 @@
+h1{
+	font-family: "Edwardian Script ITC", monospace; 
+	font-size: 40px; 
+	text-transform: lowercase;
+}
+#slogan{
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+body{
+	text-align: center;
+	font-family: Arial,sans-serif;
+	font-size: 24px;
+	background-color: #49DFE4;
+	color: white;
+
+
+}
