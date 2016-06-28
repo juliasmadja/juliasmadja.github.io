@@ -1,19 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise);
+@import url(https://fonts.googleapis.com/css?family=Radley);
+@import url(https://fonts.googleapis.com/css?family=Muli:300);
+
 h1{
-	font-family: "Edwardian Script ITC", monospace; 
-	font-size: 40px; 
-	text-transform: lowercase;
+	font-family: 'Monsieur La Doulaise', cursive; 
+	font-size: 50px; 
 }
 #slogan{
-	font-size: 30px;
-	font-weight: bold;
-	text-transform: uppercase;
+	font-family: 'Radley', serif;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: lighter;
+	font-variant: small-caps;
+	letter-spacing: 3px;
 }
 body{
+	font-family: 'Muli', sans-serif;
 	text-align: center;
-	font-family: Arial,sans-serif;
-	font-size: 24px;
-	background-color: #49DFE4;
-	color: white;
+	font-size: 18px;
+	font-weight: lighter;
+	font-style: normal;
+	background-color: black;
+	color: #00FFFF;
 
 
 }
