@@ -1,7 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise);
 @import url(https://fonts.googleapis.com/css?family=Radley);
 @import url(https://fonts.googleapis.com/css?family=Muli:300);
-
+* { margin:0; padding:0; box-sizing:border-box; }
+body{
+	background-color: black;
+	color: #00FFFF;
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+	font-style: normal;
+	text-align: center;
+}
 h1{
 	font-family: 'Monsieur La Doulaise', cursive; 
 	font-size: 50px; 
@@ -13,15 +22,4 @@ h1{
 	font-weight: lighter;
 	font-variant: small-caps;
 	letter-spacing: 3px;
-}
-body{
-	font-family: 'Muli', sans-serif;
-	text-align: center;
-	font-size: 18px;
-	font-weight: lighter;
-	font-style: normal;
-	background-color: black;
-	color: #00FFFF;
-
-
 }
