@@ -5,13 +5,14 @@
 
 body {
 	background-color: black;
-	color: #00FFFF;
+	color: #000000;
 	font-family: 'Muli', sans-serif;
 	font-size: 18px;
 	font-weight: lighter;
 	font-style: normal;
 	text-align: center;
 }
+
 header {
 	background-color: #FFED74;
 	border: 1px black solid;
@@ -20,10 +21,33 @@ header {
 
 nav {
 	background-color: #E8C66A;
+	font-family: Arial, sans-serif;
 }
 
-section, div {
+a { 
+	background-color: #ff7900;
+	color: black;
+	text-decoration: none;
+	display: block;
+	float: right;
+	padding: 20px;
+}
+
+a:hover {
+	background-color: #E8C66A;
+}
+
+div {
 	background-color: #FFE2B8;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 #two_column {
@@ -32,16 +56,20 @@ section, div {
 	padding: 20px;
 }
 
-#left{
-	background-color: #E582A2;
+#left {
+	background-color: violet;
 	border: 1px black solid;
 	padding: 20px;
+	float: left;
+	width: 30%;
 }
 
-#right{
-	background-color: #E55B88;
+#right {
+	background-color: pink;
 	border: 1px black solid;
 	padding: 20px;
+	float: right;
+	width: 62%;
 }
 
 footer {
@@ -52,6 +80,7 @@ h1 {
 	font-family: 'Monsieur La Doulaise', cursive; 
 	font-size: 50px; 
 }
+
 #slogan {
 	font-family: 'Radley', serif;
 	font-size: 25px;
