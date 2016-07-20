@@ -66,12 +66,6 @@ background-color: #FFE2B8;
 	letter-spacing: 3px;
 }
 
-img{
-	width: 30%;
-	height: auto;
-	opacity: 0.9;
-}
-
 #two_column {
 	<!-- background-color: #FFB7CF; -->
 	border: 1px black solid;
@@ -96,7 +90,6 @@ img{
 
 footer {
 	background-color: black;
-	<!-- background-color: #FFE2B8; -->
 }
 
 h1 {
