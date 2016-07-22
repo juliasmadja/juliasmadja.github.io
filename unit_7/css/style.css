@@ -13,7 +13,7 @@ body {
 	font-size: 18px;
 	font-weight: lighter;
 	font-style: normal;
-	text-align: center;
+	/* text-align: center; */
 }
 
 h1 {
@@ -32,14 +32,15 @@ nav {
 	background-color: black;
 	font-family: Arial, sans-serif;
 	color: white;
+	float: right;
 }
 
-a { 
+a {
 	background-color: #383838;
 	color: white;
 	text-decoration: none;
 	display: block;
-	float: right;
+	float: left;
 	padding: 20px;
 }
 
@@ -56,6 +57,7 @@ a:hover {
 	font-weight: lighter;
 	font-variant: small-caps; /* why doesn't this work? */
 	letter-spacing: 3px;
+	text-align: center;
 }
 
 /* #two_column {
@@ -83,8 +85,10 @@ a:hover {
 	max-width: 100%;
 } /* Why is this not floating properly? */ 
 
-#about { 
-	padding: 10px;
+#about {
+	padding: 4em 10px;
+	width: 30em;
+	margin: auto;
 }
 #about h3 { 
 	font-family: 'Radley', serif;
@@ -95,10 +99,7 @@ a:hover {
 	font-size: 0.9em
 }
 
-#portfolio_image {
-	height: auto;
-	max-width: 100%;
-}
+#portfolio_image {background: url(../image/grassdrawing.jpg);background-size: cover;background-repeat: no-repeat;height: 25em;}
 
 #portfolio h3 { 
 	font-family: 'Radley', serif;
