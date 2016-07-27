@@ -30,7 +30,6 @@ nav {
 	color: white;
 	float: right;
 }
-
 a {
 	background-color: #383838;
 	color: white;
@@ -39,9 +38,17 @@ a {
 	float: left;
 	padding: 20px;
 }
-
 a:hover {
 	background-color: black;
+}
+
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 #slogan {
@@ -59,15 +66,14 @@ a:hover {
 	background: url(../image/parisbackground.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 20em;
 	color: white;
+	height: 20em;
 	font-size: 1.5em;
 	font-family: 'Radley', serif;
 	font-variant: small-caps;
 	padding: 2em;
 	text-align: left;
 }
-
 #about p {
 	padding: 4em 10px;
 	width: 30em;
@@ -79,27 +85,25 @@ a:hover {
 	background: url(../image/grassdrawing.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	color: white;
 	height: 20em;
+	font-size: 1.5em;
 	font-family: 'Radley', serif;
 	font-variant: small-caps;
-	text-align: left;
-	color: white;
 	padding: 2em;
-	font-size: 1.5em;
+	text-align: left;
 }
-
 #portfolio img { 
 	padding: 2em 5em 2em 5em;
 	width: 25em;
 	margin: auto;
 }
-
 #portfolio h4{
-	padding: 2em;
 	font-family: 'Radley', serif;
 	font-variant: small-caps;
+	font-size: 1.5em;
+	padding: 1.5em;
 }
-
 #portfolio p {
 	padding: 0em 0em 0em 2em;
 	font-size: 0.9em
@@ -112,15 +116,24 @@ a:hover {
 	font-size: 1.5em;
 }
 
-.clearfix:after{
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
 footer {
 	background-color: black;
 }
+
+@media only screen and (max-width: 895px) {
+	#slogan {
+		display: block; 
+	}
+
+	nav a {
+		display: block;
+		text-align: center;
+		margin: 0;
+		float: none;
+	}
+
+	#portfolio img{
+		width: 20em;
+	}
+}
+
