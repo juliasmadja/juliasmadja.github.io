@@ -12,6 +12,7 @@ body {
 	font-family: 'Muli', sans-serif;
 	font-weight: lighter;
 	font-style: normal;
+	text-align: center;
 }
 
 h1 {
@@ -51,17 +52,55 @@ a:hover {
 	font-size: 25px;
 	font-style: normal;
 	font-weight: lighter;
+<<<<<<< HEAD
 	font-variant: small-caps;
+	text-align: center;
+=======
+	font-variant: small-caps; /* why doesn't this work? */
+	letter-spacing: 3px;
 	text-align: center;
 }
 
+/* #two_column {
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+>>>>>>> origin/master
+}
+
 #about_image {
+<<<<<<< HEAD
 	background: url(../image/parisbackground.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 20em;
 	color: white;
 	font-size: 1.5em;
+=======
+	height: auto;
+	max-width: 100%;
+} /* Why is this not floating properly? */ 
+
+#about {
+	padding: 4em 10px;
+	width: 30em;
+	margin: auto;
+}
+#about h3 { 
+>>>>>>> origin/master
 	font-family: 'Radley', serif;
 	font-variant: small-caps;
 	padding: 2em;
@@ -75,6 +114,7 @@ a:hover {
 	font-size: 0.9em
 }
 
+<<<<<<< HEAD
 #portfolio_image {
 	background: url(../image/grassdrawing.jpg);
 	background-size: cover;
@@ -93,6 +133,9 @@ a:hover {
 	width: 25em;
 	margin: auto;
 }
+=======
+#portfolio_image {background: url(../image/grassdrawing.jpg);background-size: cover;background-repeat: no-repeat;height: 25em;}
+>>>>>>> origin/master
 
 #portfolio h4{
 	padding: 2em;
