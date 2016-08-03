@@ -30,7 +30,7 @@ nav {
 	color: white;
 	float: right;
 }
-a {
+a{
 	background-color: #383838;
 	color: white;
 	text-decoration: none;
@@ -98,17 +98,35 @@ a:hover {
 	width: 25em;
 	margin: auto;
 }
-#portfolio h4{
+#drawing_title {
 	font-family: 'Radley', serif;
 	font-variant: small-caps;
 	font-size: 1.5em;
 	padding: 1.5em;
+}
+#photograph_title {
+	font-family: 'Radley', serif;
+	font-variant: small-caps;
+	font-size: 1.5em;
+	padding: 0em 1.5em 1.5em 1.5em;
 }
 #portfolio p {
 	padding: 0em 0em 0em 2em;
 	font-size: 0.9em
 }
 
+#contact_image {
+	background: url(../image/contact.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	height: 20em;
+	font-size: 1.5em;
+	font-family: 'Radley', serif;
+	font-variant: small-caps;
+	padding: 2em;
+	text-align: left;
+}
 #contact h3 { 
 	font-family: 'Radley', serif;
 	font-variant: small-caps;
@@ -120,6 +138,7 @@ footer {
 	background-color: black;
 }
 
+/* Problems understanding this */ 
 @media only screen and (max-width: 895px) {
 	#slogan {
 		display: block; 
