@@ -13,7 +13,9 @@ body {
 	font-weight: lighter;
 	font-style: normal;
 }
-
+header {
+	text-align:center;
+}
 h1 {
 	font-family: 'Monsieur La Doulaise', cursive; 
 	font-size: 50px; 
@@ -28,14 +30,14 @@ nav {
 	background-color: black;
 	font-family: Arial, sans-serif;
 	color: white;
-	float: right;
+	/* float: right; */
 }
 a{
 	background-color: #383838;
 	color: white;
 	text-decoration: none;
-	display: block;
-	float: left;
+	display: inline-block;
+	/* float: left; */
 	padding: 20px;
 }
 a:hover {
@@ -60,6 +62,7 @@ a:hover {
 	font-weight: lighter;
 	font-variant: small-caps;
 	text-align: center;
+	padding: 2em 0 0;
 }
 
 #about_image {
@@ -145,14 +148,13 @@ footer {
 	}
 
 	nav a {
-		display: block;
 		text-align: center;
 		margin: 0;
-		float: none;
 	}
 
 	#portfolio img{
-		width: 20em;
+		width: 50%;
+		float: left;
 	}
 }
 
